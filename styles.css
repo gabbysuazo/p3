@@ -198,3 +198,29 @@ p {
 }
 
 /* ***************************** SECTION 1 ***************************** */
+/* ***************************** SECTION 2 ***************************** */
+
+div ul li img {
+	max-width: 50px;
+}
+
+.winnie-honey {
+	width: 100%;
+	background-color: rgba(245, 37, 50, .5);
+	padding: 50px 0;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.winnie-honey img {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.winnie-honey figure {
+	width: 80%;
+}
+
+/* ***************************** SECTION 2 ***************************** */
