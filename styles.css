@@ -256,7 +256,7 @@ footer p {
 	text-align: center;
 }
 
-/* ***************************** FOOTER ***************************** */g
+/* ***************************** FOOTER ***************************** */
 /* ******************************* MIN-WIDTH: 500PX MEDIA QUERY ******************************* */
 
 @media (min-width: 500px) {
@@ -270,3 +270,53 @@ footer p {
 }
 
 /* ******************************* MIN-WIDTH: 500PX MEDIA QUERY ******************************* */
+/* ******************************* MIN-WIDTH: 700PX MEDIA QUERY ******************************* */
+
+@media (min-width: 700px) {
+	.desktop-menu {
+		display: block;
+	}
+
+	.menu, .hamburger, .cross {
+		display: none;
+	}
+
+	.ml6 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 3rem;
+	}
+
+	.about-pooh {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.about-pooh figure {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+	article {
+		width: 50%;
+	}
+
+	.about-pooh img {
+		max-width: 450px;
+	}
+
+	.winnie-honey {
+		flex-direction: row;
+	}
+
+	footer div {
+		flex-direction: row;
+	}
+
+	footer {
+		margin-bottom: 20px;
+	}
+}
+
+/* ******************************* MIN-WIDTH: 700PX MEDIA QUERY ******************************* */
