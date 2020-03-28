@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  font-family: 'Baloo 2', sans-serif;
+	font-size: 16px;
+	background-color: rgba(250, 215, 73, .5);
+	margin: auto;
+}
+
+header {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+/* *************************** HAMBURGER MENU *************************** */
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  left:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#F52532;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  left:0;
+  padding:7px 15px 0px 15px;
+  color:#F52532;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color:rgba(250, 215, 73); position:absolute; text-align:center; font-size:18px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#F52532;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+/* *************************** HAMBURGER MENU *************************** */
+/* **************************** DESKTOP MENU **************************** */
+
+.desktop-menu ul li {
+  display: inline;
+}
+
+.desktop-menu a {
+  text-decoration: none;
+}
+
+.desktop-menu {
+    margin: 6% 3%;
+    text-align: right;
+		display: none;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right,
+#FAD749, #F52532, #F52532, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    padding: 3.5%;
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #FAD749, #F52532, #E97E9E, #F4B1C6);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    padding: 3.5% 3.2%;
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #FAD749, #F52532, #EF7F01, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    padding: 3.5% 3%;
+}
+
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right,
+#FAD749, #F52532, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+     padding: 3.5% 2.7%;
+}
+
+/* **************************** DESKTOP MENU **************************** */
