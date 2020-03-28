@@ -33,7 +33,7 @@ header {
   left:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#F52532;
+  color:#5D619D;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -47,7 +47,7 @@ header {
   top:0px;
   left:0;
   padding:7px 15px 0px 15px;
-  color:#F52532;
+  color:#5D619D;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -56,11 +56,11 @@ header {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color:rgba(250, 215, 73); position:absolute; text-align:center; font-size:18px;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color:#7BA1D2; position:absolute; text-align:center; font-size:18px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#F52532;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#5D619D;}
 .menu ul li a:hover {  color: #666; text-decoration:none;}
 .menu a{text-decoration:none; color:#666;}
 .menu a:hover{text-decoration:none; color:#666;}
@@ -114,29 +114,27 @@ header {
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right,
-#FAD749, #F52532, #F52532, #FAD749);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #8E37D7, #6B8DD6, #F52532, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     padding: 3.5%;
 }
 
 .btn-hover.color-2 {
-    background-image: linear-gradient(to right, #FAD749, #F52532, #E97E9E, #F4B1C6);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #8E37D7, #6B8DD6, #E97E9E, #F4B1C6);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     padding: 3.5% 3.2%;
 }
 
 .btn-hover.color-3 {
-    background-image: linear-gradient(to right, #FAD749, #F52532, #EF7F01, #FAD749);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #8E37D7, #6B8DD6, #EF7F01, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
     padding: 3.5% 3%;
 }
 
 .btn-hover.color-4 {
-    background-image: linear-gradient(to right,
-#FAD749, #F52532, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-     padding: 3.5% 2.7%;
+    background-image: linear-gradient(to right, #8E37D7, #6B8DD6, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    padding: 3.5% 2.7%;
 }
 
 /* **************************** DESKTOP MENU **************************** */

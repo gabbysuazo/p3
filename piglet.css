@@ -33,7 +33,7 @@ header {
   left:0;
   line-height:45px;
   padding:5px 15px 0px 15px;
-  color:#F52532;
+  color:#E97E9E;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -47,7 +47,7 @@ header {
   top:0px;
   left:0;
   padding:7px 15px 0px 15px;
-  color:#F52532;
+  color:#ffffff;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -56,11 +56,11 @@ header {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color:rgba(250, 215, 73); position:absolute; text-align:center; font-size:18px;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background-color: #E97E9E; position:absolute; text-align:center; font-size:18px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#F52532;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#ffffff;}
 .menu ul li a:hover {  color: #666; text-decoration:none;}
 .menu a{text-decoration:none; color:#666;}
 .menu a:hover{text-decoration:none; color:#666;}
@@ -114,29 +114,27 @@ header {
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right,
-#FAD749, #F52532, #F52532, #FAD749);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #F52532, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5%;
 }
 
 .btn-hover.color-2 {
-    background-image: linear-gradient(to right, #FAD749, #F52532, #E97E9E, #F4B1C6);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #E97E9E, #F4B1C6);
+    box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5% 3.2%;
 }
 
 .btn-hover.color-3 {
-    background-image: linear-gradient(to right, #FAD749, #F52532, #EF7F01, #FAD749);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #EF7F01, #FAD749);
+    box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5% 3%;
 }
 
 .btn-hover.color-4 {
-    background-image: linear-gradient(to right,
-#FAD749, #F52532, #6B8DD6, #8E37D7);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
-     padding: 3.5% 2.7%;
+    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
+    padding: 3.5% 2.7%;
 }
 
 /* **************************** DESKTOP MENU **************************** */
@@ -198,6 +196,27 @@ p {
 }
 
 /* ***************************** SECTION 1 ***************************** */
+/* ***************************** SECTION 2 ***************************** */
+
+.flex-images {
+	width: 100%;
+	background-color: rgba(233, 126, 158, .5);
+	padding: 50px 0;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-images img {
+	width: 100%;
+	padding: 10px 0;
+}
+.flex-images figure {
+	width: 80%;
+}
+
+/* ***************************** SECTION 2 ***************************** */
 /* ***************************** FOOTER ***************************** */
 
 footer {
@@ -241,6 +260,16 @@ footer p {
 	figure {
 		width: 80%;
 	}
+
+  .flex-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .flex-images figure {
+    width: 40%;
+  }
 }
 
 /* ******************************* MIN-WIDTH: 500PX MEDIA QUERY ******************************* */
@@ -290,3 +319,17 @@ footer p {
 }
 
 /* ******************************* MIN-WIDTH: 700PX MEDIA QUERY ******************************* */
+/* ******************************* MIN-WIDTH: 800PX MEDIA QUERY ******************************* */
+
+@media (min-width: 800px) {
+  .flex-images {
+    padding: 20px 10px;
+  }
+
+  .flex-images figure {
+    width: 25%;
+    padding: 0 15px;
+  }
+}
+
+/* ******************************* MIN-WIDTH: 800PX MEDIA QUERY ******************************* */
