@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Winnie the Pooh & Pals</title>
+
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Baloo+2|Inter&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+	</head>
+
+	<body>
+		<header>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+
+			<nav class="menu">
+			 <ul>
+				<li><a href="index.html">Pooh</a></li>
+				<li><a href="piglet.html">Piglet</a></li>
+				<li><a href="tigger.html">Tigger</a></li>
+				<li><a href="eeyore.html">Eeyore</a></li>
+			 </ul>
+			</nav>
+
+			<nav class="desktop-menu">
+			 <ul>
+			  <li><a href="index.html" class="btn-hover color-1">Pooh</a></li>
+			  <li><a href="piglet.html" class="btn-hover color-2">Piglet</a></li>
+			  <li><a href="tigger.html" class="btn-hover color-3">Tigger</a></li>
+			  <li><a href="eeyore.html" class="btn-hover color-4">Eeyore</a></li>
+			 </ul>
+			</nav>
+		</header>
+
+		<main class="pooh1">
+			<section>
+				<h2 class="ml6">
+					<span class="text-wrapper">
+						<span class="letters">Winnie the Pooh</span>
+					</span>
+				</h2>
+			</section>
+			<section class="about-pooh">
+				<figure>
+					<img src="images/winnie1.png" title="Winnie the Pooh" alt="Winnie the Pooh">
+				</figure>
+				<article>
+					<p>Winnie-the-Pooh (sometimes called simply Pooh or Edward Bear), is a good-natured, yellow-furred, honey-loving bear who lives in the Forest surrounding the Hundred Acre Wood (modeled after Ashdown Forest in East Sussex, England).<br> His companions are Eeyore, a gloomy gray donkey; Piglet, a timid pig; Owl, a pontificating bird; the meddlesome Rabbit; and Kanga, an energetic kangaroo whose inquisitive baby, Roo, lives in her pouch.</p>
+				</article>
+			</section>
+		</main>
+
+		<div class="winnie-honey">
+			<figure>
+				<img src="images/winnie11.png" alt="Winnie the Pooh" title="Winnie the Pooh">
+			</figure>
+			<figure>
+				<img src="images/winnie12.png" alt="Winnie the Pooh" title="Winnie the Pooh">
+			</figure>
+			<figure>
+				<img src="images/winnie13.png" alt="Winnie the Pooh" title="Winnie the Pooh">
+			</figure>
+		</div>
+
+		<footer>
+			<div>
+				<figure>
+					<img src="images/logo.png" title="Logo" alt="Logo">
+				</figure>
+				<p>Winnie the Pooh & Pals © 2020 - All Rights Reserved</p>
+			</div>
+		</footer>
+
+		<script src="js/hamburger.js"></script>
+		<script src="js/letters.js"></script>
+		<script src="js/parallax.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
+		</script>
+	</body>
+
+</html>
