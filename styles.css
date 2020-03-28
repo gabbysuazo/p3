@@ -165,3 +165,36 @@ header {
 }
 
 /* ***************************** H2 ANIMATION ***************************** */
+/* ***************************** SECTION 1 ***************************** */
+
+.pooh1 {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	padding: 10px 4%;
+	font-size: 1.4rem;
+}
+
+.about-pooh {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ***************************** SECTION 1 ***************************** */
