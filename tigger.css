@@ -247,6 +247,19 @@ p {
 .container img {
 	width: 100%;
 	max-width: 100px;
+	animation: bounce 0.5s;
+	-webkit-animation: mover 1s infinite  alternate;
+	animation: mover .35s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-120px); }
 }
 
 /* ***************************** SECTION 2 ***************************** */
