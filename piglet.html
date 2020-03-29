@@ -93,6 +93,66 @@
       </div>
     </div>
 
+    <div id="Lightbox" class="modal">
+      <span class="close pointer" onclick="closeLightbox()">&times;</span>
+      <div class="modal-content">
+        <div class="slide">
+            <img src="images/flex1.jpg" class="image-slide" alt="Toy car on the road." />
+        </div>
+        <div class="slide">
+            <img src="images/flex2.jpg" class="image-slide" alt="Toy car exploring offroad." />
+        </div>
+        <div class="slide">
+            <img src="images/flex3.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+        <div class="slide">
+            <img src="images/flex4.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+        <div class="slide">
+            <img src="images/flex5.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+        <div class="slide">
+            <img src="images/flex6.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+        <div class="slide">
+            <img src="images/flex7.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+        <div class="slide">
+            <img src="images/flex8.jpg" class="image-slide" alt="Toy car in the city." />
+        </div>
+
+        <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+        <div class="dots">
+          <div class="col">
+            <img src="images/flex1.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Toy car on the road" />
+          </div>
+          <div class="col">
+            <img src="images/flex2.jpg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Toy car exploring offroad." />
+          </div>
+          <div class="col">
+            <img src="images/flex3.jpg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Toy car in the city." />
+          </div>
+          <div class="col">
+            <img src="images/flex4.jpg" class="modal-preview hover-shadow" onclick="toSlide(4)" alt="Toy car in the city." />
+          </div>
+          <div class="col">
+            <img src="images/flex5.jpg" class="modal-preview hover-shadow" onclick="toSlide(5)" alt="Toy car in the city." />
+          </div>
+          <div class="col">
+            <img src="images/flex6.jpg" class="modal-preview hover-shadow" onclick="toSlide(6)" alt="Toy car in the city." />
+          </div>
+          <div class="col">
+            <img src="images/flex7.jpg" class="modal-preview hover-shadow" onclick="toSlide(7)" alt="Toy car in the city." />
+          </div>
+          <div class="col">
+            <img src="images/flex8.jpg" class="modal-preview hover-shadow" onclick="toSlide(8)" alt="Toy car in the city." />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
 			<div>
 				<figure>
@@ -104,11 +164,7 @@
 
 		<script src="js/hamburger.js"></script>
 		<script src="js/letters.js"></script>
-		<script src="js/parallax.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			var scene = document.getElementById('scene');
-			var parallax = new Parallax(scene);
-		</script>
+    <script src="js/lightbox.js"></script>
 	</body>
 
 </html>
