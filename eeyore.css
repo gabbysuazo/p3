@@ -177,6 +177,7 @@ header {
 h2 {
 	font-family: 'Inter', sans-serif;
 	margin-bottom: 10px;
+	color: #005681;
 }
 
 .pooh1 img {
@@ -213,7 +214,6 @@ p {
 
 .section2 {
 	width: 100%;
-	margin: 50px 0 10px 0;
 	padding: 20px 0 15px 0;
 	display: flex;
 	flex-direction: column;
@@ -223,7 +223,11 @@ p {
 }
 
 .section2-bg {
+	width: 100%;
 	background: rgba(0, 86, 129, .5);
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 10px 0;
 }
 
 .section2 h3 {
@@ -234,6 +238,47 @@ p {
 .section2 p {
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+.puzzle-text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.puzzle-text img {
+	width: 100%;
+}
+
+.puzzle-text figure {
+	width: 80%;
+	max-width: 400px;
+}
+
+.puzzle-text img:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
@@ -358,6 +403,9 @@ footer p {
 	.section2 {
 		flex-direction: row;
 		padding: 40px 10px 15px 10px;
+	}
+
+	.section2-bg {
 		margin: 50px 0 30px 0;
 	}
 

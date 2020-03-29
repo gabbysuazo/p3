@@ -114,25 +114,25 @@ header {
 }
 
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #F52532, #FAD749);
+    background-image: linear-gradient(to right, #F4B1C6, #e0537d, #e0537d, #FAD749);
     box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5%;
 }
 
 .btn-hover.color-2 {
-    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #E97E9E, #F4B1C6);
+    background-image: linear-gradient(to right, #F4B1C6, #e0537d, #e0537d, #F4B1C6);
     box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5% 3.2%;
 }
 
 .btn-hover.color-3 {
-    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #EF7F01, #FAD749);
+    background-image: linear-gradient(to right, #F4B1C6, #e0537d, #e0537d, #FAD749);
     box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5% 3%;
 }
 
 .btn-hover.color-4 {
-    background-image: linear-gradient(to right, #F4B1C6, #E97E9E, #6B8DD6, #8E37D7);
+    background-image: linear-gradient(to right, #F4B1C6, #e0537d, #e0537d, #8E37D7);
     box-shadow: 0 4px 15px 0 rgba(241, 163, 162, .75);
     padding: 3.5% 2.7%;
 }
@@ -177,6 +177,7 @@ header {
 h2 {
 	font-family: 'Inter', sans-serif;
 	margin-bottom: 10px;
+  color: #E97E9E;
 }
 
 .pooh1 img {
