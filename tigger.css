@@ -16,6 +16,13 @@ body {
 	font-size: 16px;
 	background-color: rgba(220, 102, 5, .4);
 	margin: auto;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
 }
 
 header {
